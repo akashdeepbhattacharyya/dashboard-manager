@@ -22,7 +22,7 @@ export default function ConsumerDetails() {
             setConsumersData(consumers);
             handleDetails(consumers[0]);
         }
-    }, [consumers]);
+    }, []);
 
     const [searchValue, setSearchValue] = useState<string>('');
     useEffect(() => {

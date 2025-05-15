@@ -11,7 +11,7 @@ export interface Consumer {
   subDivision: string;
   multiplyingFactor: string;
   explorer: Measurement[];
-  transactions?: any[];
+  transactions?: transaction[];
 }
 
 interface VoltageEntry {
@@ -28,3 +28,6 @@ export interface Measurement {
   logical_name: string;
   voltageData: VoltageData;
 }
+
+export interface transaction 
+  { month: string, billPayments: number, recharges: number, complaints: number }

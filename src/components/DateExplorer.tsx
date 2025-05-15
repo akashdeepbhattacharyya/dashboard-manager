@@ -29,7 +29,7 @@ export default function DateExplorer({ data }: ConsumerProps) {
     }
   }, []);
   useEffect(() => {
-    const originalExplorer = data?.explorer ?? [];
+    const originalExplorer = data.explorer ?? [];
     if (searchValue.trim() === '') {
       setExplorer(originalExplorer);
     } else {
