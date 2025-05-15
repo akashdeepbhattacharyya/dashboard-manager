@@ -1,6 +1,5 @@
 import { Consumer } from '@/interface/consumer';
-import {  RootState } from '@/lib/store';
-import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 type PayloadType = {
   type: string;

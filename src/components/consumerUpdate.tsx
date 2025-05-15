@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import { useFormik } from 'formik';
 import { Consumer } from '@/interface/consumer';

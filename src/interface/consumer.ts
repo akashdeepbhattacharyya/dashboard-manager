@@ -1,15 +1,15 @@
 export interface Consumer {
   id: string;
-  name: String;
-  email: String;
-  phone: String;
-  address: String;
-  mru: String;
-  poleNumber: String;
-  consumption: String;
-  di: String;
-  subDivision: String;
-  multiplyingFactor: String;
+  name: string;
+  email: string;
+  phone: string;
+  address: string;
+  mru: string;
+  poleNumber: string;
+  consumption: string;
+  di: string;
+  subDivision: string;
+  multiplyingFactor: string;
   explorer: Measurement[];
   transactions?: any[];
 }
